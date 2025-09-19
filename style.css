@@ -77,9 +77,10 @@ header span {
 select {
     /* Стили для выпадающего списка */
     width: 150px;
-    height: 36px;
-    padding: 9px 14px 8px 12px;
-    background: url("./assets/images/arrow-down.svg") no-repeat right 15px top 50%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 12px;
+    background: url("./assets/images/arrow-down.svg") no-repeat right 12px top 50%;
     appearance: none;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
@@ -88,8 +89,8 @@ select {
 .section-title {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
-    font-size: 24px;
-    margin-bottom: 24px;
+    font-size: 25px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
@@ -97,14 +98,14 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style-image: url("./assets/images/arrow-up-bold.svg");
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .label {
@@ -164,7 +165,7 @@ th, td {
 footer {
     /* Стили для футера */
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 26px 0 27px 1px;
+    padding: 26px 0;
 }
 
 .footer-link {
